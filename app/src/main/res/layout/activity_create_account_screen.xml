@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5E6"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="212dp"
+            android:layout_height="282dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/loginbg">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Create Account"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/CAusername"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/logininput"
+                    android:drawableLeft="@drawable/person"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="#F1F1F1"
+                    android:padding="15dp"
+                    android:hint="Username"
+                    android:textColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/CApassword"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/logininput"
+                    android:drawableLeft="@drawable/password"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="#FFFFFF"
+                    android:padding="15dp"
+                    android:hint="Password"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/CAbutton"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="#FFFFFF"
+                    android:padding="20dp"
+                    android:text="Create Account"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/haveaccbutton"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="#FFFFFF"
+                    android:padding="20dp"
+                    android:text="Already have an account"
+                    android:textColor="#FFFFFF" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

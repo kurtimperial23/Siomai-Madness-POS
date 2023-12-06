@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:textColor="#808080" /> <!-- Set text color to gray -->
+
+    <item
+        android:id="@+id/cartFragment"
+        android:title="Cart"
+        android:icon="@drawable/cart"
+        android:textColor="#808080" />
+
+    <item
+        android:id="@+id/searchFragment"
+        android:title="Search"
+        android:icon="@drawable/search"
+        android:textColor="#808080" />
+
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/history"
+        android:textColor="#FF0000"
+        android:title="History" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Profile"
+        android:icon="@drawable/user"
+        android:textColor="#808080" />
+
+</menu>
